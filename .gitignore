@@ -1,0 +1,17 @@
+.DS_Store
+*.app
+*.appex
+*.dmg
+*.zip
+*.sha256
+dist/
+# never commit signing material
+*.p12
+*.pem
+*.key
+*.csr
+*.cer
+*.pw
+*.keychain-db
+*.mobileprovision
+.env
