@@ -2,22 +2,9 @@
   "manifest_version": 3,
   "name": "SideNav",
   "version": "1.0",
-  "description": "Mouse back/forward side buttons for Safari.",
+  "description": "Back and forward with your mouse side buttons.",
+  "icons": { "48": "icon-48.png", "96": "icon-96.png", "128": "icon-128.png" },
   "content_scripts": [
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "content.js"
-      ],
-      "run_at": "document_start",
-      "all_frames": false
-    }
-  ],
-  "icons": {
-    "48": "icon-48.png",
-    "96": "icon-96.png",
-    "128": "icon-128.png"
-  }
+    { "matches": ["<all_urls>"], "js": ["content.js"], "run_at": "document_start" }
+  ]
 }

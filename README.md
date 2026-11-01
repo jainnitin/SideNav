@@ -20,7 +20,7 @@ The extension has no network access and stores nothing. The app makes one reques
 
 ## Build
 
-    ./build.sh                       # local build
+    ./build.sh                       # local build (enable Develop > Allow Unsigned Extensions)
     SIGN_ID=<identity> ./release.sh  # signed, notarized DMG in dist/
 
 ## License
